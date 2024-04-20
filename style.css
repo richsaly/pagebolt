@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppings", sans-serif;
+}
+
+/* :root{
+    color-1: ;
+} */
+
+body{
+    background-color: #e9f1f8;
+    /* padding: 0 100px; */
+}
+
+/*laptop view */
+/* nav-bar */
+.nav{
+    padding: 15px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    height: 30px;
+    width: 100px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav li a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #102a43;
+}
+
+.nav a:hover{
+    color: #06a0f1;
+}
+
+.log img{
+    display: none;
+}
+
+.log a{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #102a43;
+}
+
+.log button{
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.log button:hover{
+       background-color: #06a0f1;
+       color: white;
+       cursor: pointer;
+}
+
+/* hero-link-button */
+.upper{
+    margin-top: 80px;
+    margin-left: 37%;
+    align-self: center;
+    align-items: center;
+    background-color: hsl(206, 100%, 94%);
+    border-radius: 50px;
+    display: flex;
+    padding: 3px 5px;
+    width: 25%;
+}
+
+.upper button{
+    border: 0px;
+    border-radius: 50px;
+    background-color: #06a0f1;
+    color: white;
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+.upper a{
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #06a0f1;
+}
+
+.upper img{
+    size: 10px;
+}
+
+/* hero-content */
+.bd-1{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bd-1 h1{
+    font-family: "poppins";
+    color: #102a43;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.bg-1{
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 98%;
+    z-index: -1;
+    bottom: 0;
+    background-color: hsl(206, 100%, 94%);
+}
+
+.position{
+    position: relative;
+}
+
+.position h1{
+    color: #06a0f1;
+    margin-left: 10px;
+}
+
+.position-1{
+    display: inline-flex;
+    gap: 5px;
+
+}
+
+.bd-1 p{
+    margin-top: 20px;
+    font-family: "poppins";
+    color: #102a43;
+    font-weight: 500;
+}
+
+/* download-black-button */
+.bwd img{
+    margin-top: 30px;
+     height: 40px;
+     margin-left: 20px;
+     border-radius: 5px;
+     transition: 1s;
+}
+
+.bwd img:hover{
+    height: 45px;
+}
+
+/* section-2 image */
+.section-2{
+    margin-top: 70px;
+    margin-left: 30%;
+    position: relative;
+}
+
+.sub-1 img{
+    height: 500px;
+    position: absolute;
+}
+
+
+/* mobile view */
+@media (min-width: 100px) and (max-width: 540px) {
+    .nav{
+        padding: 30px 40px;
+    }
+
+    .nav ul li{
+        display: none;
+    }
+
+    .log img{
+        display: flex;
+    }
+
+    .log a,button{
+        display: none;
+    }
+
+    .upper{
+        margin-top: 50px;
+        /* margin-left: 8%; */
+        align-self: center;
+        align-items: center;
+        background-color: hsl(206, 100%, 94%);
+        border-radius: 50px;
+        display: flex;
+        padding: 3px 5px;
+        width: 75%;
+    }
+    
+    .upper button{
+        border: 0px;
+        border-radius: 50px;
+        background-color: #06a0f1;
+        color: white;
+        padding: 5px 15px;
+        font-size: 10px;
+        display: flex;
+    }
+    
+    .upper a{
+        font-family: "poppins";
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        color: #06a0f1;
+    }
+    
+    .upper img{
+        color: white;
+        size: 10px;
+    }
+
+    .bd-1{
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .bd-1 h1{
+        font-family: "poppins";
+        color: #102a43;
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    
+}
